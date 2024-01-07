@@ -2,6 +2,7 @@ package exercise1;
 
 public class Main {
     public static void main(String[] args) {
-        Util.sayHello();
+        int number = 7;
+        Util.sayHello(number);
     }
 }
