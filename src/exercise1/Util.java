@@ -4,13 +4,13 @@ import java.util.Scanner;
 
 public class Util {
 
-    public static void sayHello() {
+    protected static void sayHello() {
         Scanner scanner = new Scanner(System.in);
-        int IntroducedFigure;
+        int introducedFigure;
         do {
             System.out.println("Введите число:");
-            IntroducedFigure = scanner.nextInt();
-            if (IntroducedFigure > 7) {
+            introducedFigure = scanner.nextInt();
+            if (introducedFigure > 7) {
                 System.out.println("Привет!");
                 break;
             }
